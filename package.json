@@ -1,0 +1,37 @@
+{
+  "name": "natural-food-photographer-skill",
+  "version": "1.0.0",
+  "description": "AI agent skill for authentic, natural-looking food photography: turns a dish name or a raw phone photo into a clean, appetizing, realistic menu or promo image, and blocks AI slop aesthetics.",
+  "bin": {
+    "natural-food-photographer": "./bin/cli.js"
+  },
+  "files": [
+    "bin/",
+    "skills/",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "claude-code",
+    "claude-skill",
+    "ai-agent",
+    "skill",
+    "food-photography",
+    "image-prompt",
+    "anti-slop",
+    "menu-photo"
+  ],
+  "homepage": "https://github.com/knsiuss/natural-food-photographer-skill#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knsiuss/natural-food-photographer-skill.git"
+  },
+  "bugs": {
+    "url": "https://github.com/knsiuss/natural-food-photographer-skill/issues"
+  },
+  "author": "knsiuss",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
